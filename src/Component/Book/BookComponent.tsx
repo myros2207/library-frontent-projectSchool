@@ -8,7 +8,7 @@ const BookComponent = () => {
     return (
         <Box minH={"100vh"} display={"flex"} flexDirection={"column"} alignItems={"center"}>
             <Navbar />
-            <Box display={"flex"} w={"60%"} border={"1px solid"} flexWrap={"wrap"}>
+            <Box display={"flex"} w={"65%"} justifyContent={"center"}  flexWrap={"wrap"}>
                 {
                     mockBook.map(mock =>
                         <BookBoxComponent title={mock.title} author={mock.author} ratings={mock.ratings} image={mock.image} />
