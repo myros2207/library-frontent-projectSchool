@@ -5,7 +5,7 @@ import { color4, color3 } from '../colors';
 interface iBook {
     title: string;
     author: string;
-    image: string; 
+    image: string;
     ratings: number
 }
 

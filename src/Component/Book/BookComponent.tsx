@@ -6,7 +6,7 @@ import { Box } from "@chakra-ui/react";
 
 const BookComponent = () => {
     return (
-        <Box minH={"100vh"} display={"flex"} flexDirection={"column"} alignItems={"center"}>
+        <Box minH={"100vh"} display={"flex"} flexDirection={"column"} alignItems={"center"} paddingBottom={"10%"}>
             <Navbar />
             <Box display={"flex"} w={"65%"} justifyContent={"center"}  flexWrap={"wrap"}>
                 {
