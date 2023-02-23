@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import HomePage from "./Component/HomePage";
+import HomePage from "./Component/Home/HomePage";
 import {color1} from "./Component/colors";
 import BookComponent from "./Component/Book/BookComponent";
 import "../src/reset.css"
