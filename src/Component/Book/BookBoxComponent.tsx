@@ -6,7 +6,8 @@ interface iBook {
     title: string;
     author: string;
     image: string;
-    ratings: number
+    ratings: number;
+    branchLibraryId: number | undefined;
 }
 
 const normalPepople = require("../../ImageBook/NormalPeople.jpg")

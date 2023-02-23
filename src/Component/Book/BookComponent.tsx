@@ -11,7 +11,7 @@ const BookComponent = () => {
             <Box display={"flex"} w={"65%"} justifyContent={"center"}  flexWrap={"wrap"}>
                 {
                     mockBook.map(mock =>
-                        <BookBoxComponent title={mock.title} author={mock.author} ratings={mock.ratings} image={mock.image} />
+                        <BookBoxComponent title={mock.title} author={mock.author} ratings={mock.ratings} image={mock.image}  branchLibraryId={mock.branchLibraryId}/>
                     )
                 }
             </Box>
