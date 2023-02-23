@@ -10,7 +10,7 @@ const Navbar = () => {
                 <Flex textAlign={"center"}>
                     <ListItem color={"teal.50"} ><Link to={"/"}>Home</Link></ListItem>
                     <ListItem color={"teal.50"} ml={"5px"}><Link to={"/listBook"}>Lista książ</Link></ListItem>
-                    <ListItem color={"teal.50"} ml={"10px"}><Link to={"/listBook"}>Lista filii</Link></ListItem>
+                    <ListItem color={"teal.50"} ml={"10px"}><Link to={"/listFilii"}>Lista filii</Link></ListItem>
                 </Flex>
             </UnorderedList>
         </Box>

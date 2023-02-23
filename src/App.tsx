@@ -4,6 +4,7 @@ import HomePage from "./Component/HomePage";
 import {color1} from "./Component/colors";
 import BookComponent from "./Component/Book/BookComponent";
 import "../src/reset.css"
+import FiliiComponent from "./Component/Filii/FiliiComponent";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path={"/"} element={<HomePage/>}/>
             <Route path={"/listBook"} element={<BookComponent/>}/>
+            <Route path={"/listFilii"} element={<FiliiComponent/>}/>
           </Routes>
         </BrowserRouter>
     </div>

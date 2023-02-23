@@ -64,5 +64,52 @@ export const mockBook = [
         image: WhoWasMarkTwain,
         ratings: 9
     },
-    
+    {
+        title: "Normal People",
+        author: "Sally Rooney",
+        image: normalPepople,
+        ratings: 7
+    },
+    {
+        title: "Pet Sematry",
+        author: "Stephen King",
+        image: PetSematry,
+        ratings: 7
+    },
+
+]
+
+
+export const  mockFilia = [
+    {
+        address: "Grunwaldska 1",
+        name: "Filia 1",
+        countEmployees: 30,
+        countBook: 50
+    },
+    {
+        address: "Grunwaldska 1",
+        name: "Filia 1",
+        countEmployees: 30,
+        countBook: 50
+    },
+    {
+        address: "Grunwaldska 1",
+        name: "Filia 1",
+        countEmployees: 30,
+        countBook: 50
+    },
+    {
+        address: "Grunwaldska 1",
+        name: "Filia 1",
+        countEmployees: 30,
+        countBook: 50
+    },
+    {
+        address: "Grunwaldska 1",
+        name: "Filia 1",
+        countEmployees: 30,
+        countBook: 50
+    },
+
 ]
