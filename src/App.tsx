@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route path={"/"} element={<HomePage/>}/>
             <Route path={"/listBook"} element={<BookComponent/>}/>
-            <Route path={"/listFilii"} element={<FiliiComponent/>}/>
+            <Route path={"/listBranch"} element={<FiliiComponent/>}/>
           </Routes>
         </BrowserRouter>
     </div>
