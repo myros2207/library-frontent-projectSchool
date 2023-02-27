@@ -2,6 +2,8 @@ import React from 'react';
 import styled from "@emotion/styled";
 import {Image} from '@chakra-ui/react';
 import FiliiBoxComponent from '../Filii/FiliiBoxComponent';
+import {Link} from "react-router-dom";
+import {color2} from "../colors";
 
 
 const CartGlobal = styled.div`
@@ -12,7 +14,7 @@ const CartGlobal = styled.div`
 `
 const Container = styled.div`
   width: 25rem;
-  background: aquamarine;
+  background: ${color2};
   margin: 20px;
   border-radius: 10px;
   padding: 5px;
@@ -23,6 +25,12 @@ const Container = styled.div`
   height: 100%;
 `
 
+const Content = styled.div`
+  // justify-content: center; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+`
 const ImageBox = styled.div`
   width: 100%;
   height: 50%;
@@ -44,17 +52,24 @@ const CartInfo = () => {
     const imageFilii = require("../../ImageBook/filiiPhoto.jpg")
     return (
         <CartGlobal>
-            <Container>
+            <Container><Link to={"/listBook"}>
+                <Content>
                 <Text>Czytaj nasze Książke</Text>
                     <ImageHead src={imageBook}/>
-                    <Text>Nie wiesz, którą książkę wybrać? Jaki gatunek? Możesz pomyśleć, że nie będzie ciekawie, ale z naszą biblioteką będziesz mógł dokonać wyboru</Text>
-            </Container>
+                    <h2>Nie wiesz, którą książkę wybrać? Jaki gatunek?
+                Możesz pomyśleć, że nie będzie ciekawie, ale z naszą biblioteką będziesz mógł dokonać wyboru</h2>
+                </Content>
+            </Link></Container>
             <Container>
+                <Link to={"listBranch"}>
+                <Content>
                 <Text>Zobacz nasze Filii</Text>
                     <ImageHead src={imageFilii}/>
                 <h2>Szukasz miejsca gdzie można pożyczyć książke?</h2>
                 <h2>chcesz ciekawie i pożytecznie spędzić czas?</h2>
                 <h2>Zapraszamy do naszych bibliotek</h2>
+                </Content>
+                </Link>
             </Container>
             <Container>
                 <Text>Nasza praca</Text>
