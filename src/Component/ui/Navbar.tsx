@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <Box w={"100vw"}  h={"100%"} bg={"#1F8A70"}>
+        <Box  h={"100%"} bg={"#1F8A70"}>
             <UnorderedList p={"13px"} listStyleType={"none"} float={"right"} mr={"10px"}>
                 <Flex textAlign={"center"}>
                     <ListItem color={"teal.50"} ><Link to={"/"}>Home</Link></ListItem>
