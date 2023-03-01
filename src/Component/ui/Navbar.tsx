@@ -11,6 +11,7 @@ const Navbar = () => {
                     <ListItem color={"teal.50"} ><Link to={"/"}>Home</Link></ListItem>
                     <ListItem color={"teal.50"} ml={"5px"}><Link to={"/listBook"}>Lista książ</Link></ListItem>
                     <ListItem color={"teal.50"} ml={"10px"}><Link to={"/listBranch"}>Lista filii</Link></ListItem>
+                    <ListItem color={"teal.50"} ml={"10px"}><Link to={"/listEmployee"}>Lista pracownika</Link></ListItem>
                 </Flex>
             </UnorderedList>
         </Box>

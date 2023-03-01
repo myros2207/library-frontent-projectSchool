@@ -76,18 +76,18 @@ const CartInfo = () => {
                 <Content>
                 <Text>Zobacz nasze Filii</Text>
                     <ImageHead src={imageFilii}/>
-                <h2>Szukasz miejsca gdzie można pożyczyć książke?</h2>
-                <h2>chcesz ciekawie i pożytecznie spędzić czas?</h2>
-                <h2>Zapraszamy do naszych bibliotek</h2>
+                <DescText>Szukasz miejsca gdzie można pożyczyć książke?</DescText>
+                <DescText>chcesz ciekawie i pożytecznie spędzić czas?</DescText>
+                <DescText>Zapraszamy do naszych bibliotek</DescText>
                 </Content>
                 </Link>
             </Container>
             <Container>
                 <Text>Nasza praca</Text>
                     <ImageHead src={imageEmployee}/>
-                <h2>Szukasz Prace?</h2>
-                <h2>Chcesz zostać bibliotekarzem??</h2>
-                <h2>Zobacz naszą propozycję i naszych pracowników</h2>
+                <DescText>Szukasz Prace?</DescText>
+                <DescText>Chcesz zostać bibliotekarzem??</DescText>
+                <DescText>Zobacz naszą propozycję i naszych pracowników</DescText>
             </Container>
         </CartGlobal>
     );
