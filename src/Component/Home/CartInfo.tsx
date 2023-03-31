@@ -65,29 +65,35 @@ const CartInfo = () => {
         <CartGlobal>
             <Container><Link to={"/listBook"}>
                 <Content>
-                <Text>Czytaj nasze Książke</Text>
+                    <Text>Czytaj nasze Książke</Text>
                     <ImageHead src={imageBook}/>
                     <DescText>Nie wiesz, którą książkę wybrać? Jaki gatunek?
-                Możesz pomyśleć, że nie będzie ciekawie, ale z naszą biblioteką będziesz mógł dokonać wyboru</DescText>
+                        Możesz pomyśleć, że nie będzie ciekawie, ale z naszą biblioteką będziesz mógł dokonać
+                        wyboru</DescText>
                 </Content>
             </Link></Container>
             <Container>
                 <Link to={"listBranch"}>
-                <Content>
-                <Text>Zobacz nasze Filii</Text>
-                    <ImageHead src={imageFilii}/>
-                <DescText>Szukasz miejsca gdzie można pożyczyć książke?</DescText>
-                <DescText>chcesz ciekawie i pożytecznie spędzić czas?</DescText>
-                <DescText>Zapraszamy do naszych bibliotek</DescText>
-                </Content>
+                    <Content>
+                        <Text>Zobacz nasze Filii</Text>
+                        <ImageHead src={imageFilii}/>
+                        <DescText>Szukasz miejsca gdzie można pożyczyć książke?</DescText>
+                        <DescText>chcesz ciekawie i pożytecznie spędzić czas?</DescText>
+                        <DescText>Zapraszamy do naszych bibliotek</DescText>
+                    </Content>
                 </Link>
             </Container>
+
             <Container>
-                <Text>Nasza praca</Text>
-                    <ImageHead src={imageEmployee}/>
-                <DescText>Szukasz Prace?</DescText>
-                <DescText>Chcesz zostać bibliotekarzem??</DescText>
-                <DescText>Zobacz naszą propozycję i naszych pracowników</DescText>
+                <Link to={"listEmployee"}>
+                    <Content>
+                        <Text>Nasza praca</Text>
+                        <ImageHead src={imageEmployee}/>
+                        <DescText>Szukasz Prace?</DescText>
+                        <DescText>Chcesz zostać bibliotekarzem??</DescText>
+                        <DescText>Zobacz naszą propozycję i naszych pracowników</DescText>
+                    </Content>
+                </Link>
             </Container>
         </CartGlobal>
     );

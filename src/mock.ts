@@ -130,3 +130,60 @@ export const  mockFilia = [
     },
 
 ]
+
+
+export const mockEmployee = [
+    {
+        firstName: "Mirek",
+        secondName: "Torbiak"
+    },
+    {
+        firstName: "Yehor",
+        secondName: "Kochetov"
+    },
+
+    {
+        firstName: "Danyil",
+        secondName: "Abakarov"
+    },
+    {
+        firstName: "Rafał",
+        secondName: "Frejer"
+    },
+    {
+        firstName: "Mirek",
+        secondName: "Torbiak"
+    },
+    {
+        firstName: "Yehor",
+        secondName: "Kochetov"
+    },
+
+    {
+        firstName: "Danyil",
+        secondName: "Abakarov"
+    },
+    {
+        firstName: "Rafał",
+        secondName: "Frejer"
+    },
+    {
+        firstName: "Mirek",
+        secondName: "Torbiak"
+    },
+    {
+        firstName: "Yehor",
+        secondName: "Kochetov"
+    },
+
+    {
+        firstName: "Danyil",
+        secondName: "Abakarov"
+    },
+    {
+        firstName: "Rafał",
+        secondName: "Frejer"
+    },
+
+
+]
